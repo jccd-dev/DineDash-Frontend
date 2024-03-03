@@ -35,10 +35,10 @@ const MobileNav = () => {
             <MobileNavLinks />
           ) : (
             <Button
-              onClick={() => loginWithRedirect}
+              onClick={async () => await loginWithRedirect()}
               className="flex-1 font-bold bg-orange-500"
             >
-              Login In
+              Log In
             </Button>
           )}
         </SheetDescription>
