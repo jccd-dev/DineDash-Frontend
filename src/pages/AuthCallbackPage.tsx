@@ -16,9 +16,9 @@ const AuthCallbackPage = () => {
       hasCreatedUser.current = true;
     }
     navigate("/");
-  }, [user, createUser, navigate]);
+  }, [navigate, createUser, user]);
 
-  return <div>Loading...</div>;
+  return <>Loading...</>;
 };
 
 export default AuthCallbackPage;

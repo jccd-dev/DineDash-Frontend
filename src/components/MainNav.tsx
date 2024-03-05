@@ -14,7 +14,7 @@ const MainNav = () => {
           className="font-bol hover:text-orange-500 hover:bg-white"
           onClick={async () => await loginWithRedirect()}
         >
-          Log in
+          Log In
         </Button>
       )}
     </span>
